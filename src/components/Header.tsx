@@ -1,7 +1,7 @@
 import { ShoppingBag, User, Menu, Search } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-const logo = "/logo.png";
+import logo from '../assets/logo.png';
 
 interface HeaderProps {
   cartCount: number;

@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-const logo = "/logo.png";
+import logo from '../assets/logo.png';
 
 export function LoadingAnimation() {
   return (

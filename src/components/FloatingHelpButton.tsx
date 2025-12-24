@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from 'motion/react';
 import { useState, useEffect } from 'react';
-const helpAvatar = "/avatar.png";
+import helpAvatar from '../assets/avatar.png';
 
 interface FloatingHelpButtonProps {
   visible?: boolean;
